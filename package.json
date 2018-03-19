@@ -8,6 +8,7 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
+    "es-lint": "ng lint dist --ext .jsx,.jsx",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -33,6 +34,8 @@
     "@types/jasminewd2": "~2.0.2",
     "@types/node": "~6.0.60",
     "codelyzer": "^4.0.1",
+    "eslint": "^4.19.0",
+    "firebase-tools": "3.17.6",
     "jasmine-core": "~2.8.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~2.0.0",
@@ -43,7 +46,6 @@
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
-    "typescript": "~2.5.3",
-    "firebase-tools": "3.17.6"
+    "typescript": "~2.5.3"
   }
 }
