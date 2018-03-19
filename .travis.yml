@@ -3,9 +3,10 @@
 language: node_js
 node_js:
   - "8.10"
-sudo: required
+env:
+  - MOZ_HEADLESS=1
 addons:
-  chrome: stable
+  firefox: latest
 branches:
   only:
     - master
